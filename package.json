@@ -1,0 +1,31 @@
+{
+  "name": "coffeewip-nodejs-rest-api-clusters",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "benchmarking": "node ./src/benchmarking.js",
+    "http-1-cluster-console": "node ./src/http-1-cluster-console.js",
+    "http-1-cluster-stream": "node ./src/http-1-cluster-stream.js",
+    "http-4-cluster-console": "node ./src/http-4-cluster-console.js",
+    "http-4-cluster-stream": "node ./src/http-4-cluster-stream.js",
+    "http-4-cluster-stream-send": "node ./src/http-4-cluster-stream-send.js",
+    "http-console": "node ./src/http-console.js",
+    "http-stream": "node ./src/http-stream.js",
+    "http": "node ./src/http.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseJPR/coffeewip-nodejs-rest-api-clusters.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseJPR/coffeewip-nodejs-rest-api-clusters/issues"
+  },
+  "homepage": "https://github.com/JoseJPR/coffeewip-nodejs-rest-api-clusters#readme",
+  "dependencies": {
+    "autocannon": "^4.6.0",
+    "dotenv": "^8.2.0"
+  }
+}
